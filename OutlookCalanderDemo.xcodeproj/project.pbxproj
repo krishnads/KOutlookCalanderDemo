@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32B02F051DF6BF8200A3C3BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B02F041DF6BF8200A3C3BE /* main.m */; };
+		32B02F081DF6BF8200A3C3BE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B02F071DF6BF8200A3C3BE /* AppDelegate.m */; };
+		32B02F0B1DF6BF8200A3C3BE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B02F0A1DF6BF8200A3C3BE /* ViewController.m */; };
+		32B02F0E1DF6BF8200A3C3BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32B02F0C1DF6BF8200A3C3BE /* Main.storyboard */; };
+		32B02F101DF6BF8200A3C3BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32B02F0F1DF6BF8200A3C3BE /* Assets.xcassets */; };
+		32B02F131DF6BF8200A3C3BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32B02F111DF6BF8200A3C3BE /* LaunchScreen.storyboard */; };
+		32B02F1E1DF6CDBF00A3C3BE /* Authentication.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B02F1B1DF6CDBF00A3C3BE /* Authentication.m */; };
+		32B02F1F1DF6CDBF00A3C3BE /* AuthenticationConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B02F1D1DF6CDBF00A3C3BE /* AuthenticationConstants.m */; };
+		5080E9E0E5D4CF476CEC226D /* libPods-OutlookCalanderDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ED57856E870607078133724 /* libPods-OutlookCalanderDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		32A10F911E13E89A00DDFA01 /* OutlookCalanderDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OutlookCalanderDemo.entitlements; sourceTree = "<group>"; };
+		32B02F001DF6BF8100A3C3BE /* OutlookCalanderDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OutlookCalanderDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32B02F041DF6BF8200A3C3BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32B02F061DF6BF8200A3C3BE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		32B02F071DF6BF8200A3C3BE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		32B02F091DF6BF8200A3C3BE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		32B02F0A1DF6BF8200A3C3BE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		32B02F0D1DF6BF8200A3C3BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		32B02F0F1DF6BF8200A3C3BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32B02F121DF6BF8200A3C3BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		32B02F141DF6BF8200A3C3BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32B02F1A1DF6CDBF00A3C3BE /* Authentication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Authentication.h; sourceTree = "<group>"; };
+		32B02F1B1DF6CDBF00A3C3BE /* Authentication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Authentication.m; sourceTree = "<group>"; };
+		32B02F1C1DF6CDBF00A3C3BE /* AuthenticationConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthenticationConstants.h; sourceTree = "<group>"; };
+		32B02F1D1DF6CDBF00A3C3BE /* AuthenticationConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthenticationConstants.m; sourceTree = "<group>"; };
+		9D44E78E021817E993D46A8D /* Pods-OutlookCalanderDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OutlookCalanderDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-OutlookCalanderDemo/Pods-OutlookCalanderDemo.release.xcconfig"; sourceTree = "<group>"; };
+		9ED57856E870607078133724 /* libPods-OutlookCalanderDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OutlookCalanderDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0434BE1DD298A2A40FFA4C6 /* Pods-OutlookCalanderDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OutlookCalanderDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OutlookCalanderDemo/Pods-OutlookCalanderDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32B02EFD1DF6BF8100A3C3BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5080E9E0E5D4CF476CEC226D /* libPods-OutlookCalanderDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32B02EF71DF6BF8100A3C3BE = {
+			isa = PBXGroup;
+			children = (
+				32B02F021DF6BF8100A3C3BE /* OutlookCalanderDemo */,
+				32B02F011DF6BF8100A3C3BE /* Products */,
+				B4E8FA85F804AED435959862 /* Pods */,
+				B1CEABC7378AB4126F09136A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		32B02F011DF6BF8100A3C3BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32B02F001DF6BF8100A3C3BE /* OutlookCalanderDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32B02F021DF6BF8100A3C3BE /* OutlookCalanderDemo */ = {
+			isa = PBXGroup;
+			children = (
+				32A10F911E13E89A00DDFA01 /* OutlookCalanderDemo.entitlements */,
+				32B02F1A1DF6CDBF00A3C3BE /* Authentication.h */,
+				32B02F1B1DF6CDBF00A3C3BE /* Authentication.m */,
+				32B02F1C1DF6CDBF00A3C3BE /* AuthenticationConstants.h */,
+				32B02F1D1DF6CDBF00A3C3BE /* AuthenticationConstants.m */,
+				32B02F061DF6BF8200A3C3BE /* AppDelegate.h */,
+				32B02F071DF6BF8200A3C3BE /* AppDelegate.m */,
+				32B02F091DF6BF8200A3C3BE /* ViewController.h */,
+				32B02F0A1DF6BF8200A3C3BE /* ViewController.m */,
+				32B02F0C1DF6BF8200A3C3BE /* Main.storyboard */,
+				32B02F0F1DF6BF8200A3C3BE /* Assets.xcassets */,
+				32B02F111DF6BF8200A3C3BE /* LaunchScreen.storyboard */,
+				32B02F141DF6BF8200A3C3BE /* Info.plist */,
+				32B02F031DF6BF8200A3C3BE /* Supporting Files */,
+			);
+			path = OutlookCalanderDemo;
+			sourceTree = "<group>";
+		};
+		32B02F031DF6BF8200A3C3BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				32B02F041DF6BF8200A3C3BE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B1CEABC7378AB4126F09136A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9ED57856E870607078133724 /* libPods-OutlookCalanderDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B4E8FA85F804AED435959862 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E0434BE1DD298A2A40FFA4C6 /* Pods-OutlookCalanderDemo.debug.xcconfig */,
+				9D44E78E021817E993D46A8D /* Pods-OutlookCalanderDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32B02EFF1DF6BF8100A3C3BE /* OutlookCalanderDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32B02F171DF6BF8200A3C3BE /* Build configuration list for PBXNativeTarget "OutlookCalanderDemo" */;
+			buildPhases = (
+				6FEC68D1D3335E04045199D2 /* [CP] Check Pods Manifest.lock */,
+				32B02EFC1DF6BF8100A3C3BE /* Sources */,
+				32B02EFD1DF6BF8100A3C3BE /* Frameworks */,
+				32B02EFE1DF6BF8100A3C3BE /* Resources */,
+				E3A91D3AAF883B7999881826 /* [CP] Embed Pods Frameworks */,
+				159B4263E290D1FF40A15128 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OutlookCalanderDemo;
+			productName = OutlookCalanderDemo;
+			productReference = 32B02F001DF6BF8100A3C3BE /* OutlookCalanderDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32B02EF81DF6BF8100A3C3BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Konstant Info Solutions Pvt. Ltd.";
+				TargetAttributes = {
+					32B02EFF1DF6BF8100A3C3BE = {
+						CreatedOnToolsVersion = 7.3;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 32B02EFB1DF6BF8100A3C3BE /* Build configuration list for PBXProject "OutlookCalanderDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32B02EF71DF6BF8100A3C3BE;
+			productRefGroup = 32B02F011DF6BF8100A3C3BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32B02EFF1DF6BF8100A3C3BE /* OutlookCalanderDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32B02EFE1DF6BF8100A3C3BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32B02F131DF6BF8200A3C3BE /* LaunchScreen.storyboard in Resources */,
+				32B02F101DF6BF8200A3C3BE /* Assets.xcassets in Resources */,
+				32B02F0E1DF6BF8200A3C3BE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		159B4263E290D1FF40A15128 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OutlookCalanderDemo/Pods-OutlookCalanderDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6FEC68D1D3335E04045199D2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E3A91D3AAF883B7999881826 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OutlookCalanderDemo/Pods-OutlookCalanderDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32B02EFC1DF6BF8100A3C3BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32B02F1F1DF6CDBF00A3C3BE /* AuthenticationConstants.m in Sources */,
+				32B02F0B1DF6BF8200A3C3BE /* ViewController.m in Sources */,
+				32B02F081DF6BF8200A3C3BE /* AppDelegate.m in Sources */,
+				32B02F051DF6BF8200A3C3BE /* main.m in Sources */,
+				32B02F1E1DF6CDBF00A3C3BE /* Authentication.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		32B02F0C1DF6BF8200A3C3BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32B02F0D1DF6BF8200A3C3BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		32B02F111DF6BF8200A3C3BE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32B02F121DF6BF8200A3C3BE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32B02F151DF6BF8200A3C3BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		32B02F161DF6BF8200A3C3BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32B02F181DF6BF8200A3C3BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0434BE1DD298A2A40FFA4C6 /* Pods-OutlookCalanderDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = OutlookCalanderDemo/OutlookCalanderDemo.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Vipin Jain (ESHL9PZXSM)";
+				INFOPLIST_FILE = OutlookCalanderDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kipl.OutlookCalanderDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0bac48dc-b775-46f9-bb1b-98c6f3480cf8";
+			};
+			name = Debug;
+		};
+		32B02F191DF6BF8200A3C3BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D44E78E021817E993D46A8D /* Pods-OutlookCalanderDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = OutlookCalanderDemo/OutlookCalanderDemo.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Vipin Jain (ESHL9PZXSM)";
+				INFOPLIST_FILE = OutlookCalanderDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kipl.OutlookCalanderDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0bac48dc-b775-46f9-bb1b-98c6f3480cf8";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32B02EFB1DF6BF8100A3C3BE /* Build configuration list for PBXProject "OutlookCalanderDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32B02F151DF6BF8200A3C3BE /* Debug */,
+				32B02F161DF6BF8200A3C3BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32B02F171DF6BF8200A3C3BE /* Build configuration list for PBXNativeTarget "OutlookCalanderDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32B02F181DF6BF8200A3C3BE /* Debug */,
+				32B02F191DF6BF8200A3C3BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32B02EF81DF6BF8100A3C3BE /* Project object */;
+}
